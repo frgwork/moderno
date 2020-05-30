@@ -84,6 +84,10 @@
    }
 }
 @media (max-width: 520px) {
+   .header {
+      overflow: hidden;
+      position: relative;
+   }
    .header__btn-menu {
       display: block;
    }
@@ -135,6 +139,7 @@
    }
    .header__top-inner {
       height: 70px;
+
    }
    .circle__menu {
       top: 52px;
