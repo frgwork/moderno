@@ -45,7 +45,7 @@
          & + li {
             margin-left: 0;
          }
-         &:first-child{
+         &:first-child {
             border-top: 1px solid #ffffff;
          }
       }
@@ -112,7 +112,7 @@
       }
    }
    .header__box {
-      transition: all .5s;
+      transition: all 0.5s;
       background-color: #fff;
       position: absolute;
       height: 70px;
@@ -139,7 +139,6 @@
    }
    .header__top-inner {
       height: 70px;
-
    }
    .circle__menu {
       top: 52px;
@@ -176,12 +175,7 @@
    .header__logo {
       margin-left: 50px;
    }
-
 }
-
-
-
-
 
 @media (min-width: 841px) {
    .menu__list {
